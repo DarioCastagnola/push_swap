@@ -6,7 +6,7 @@
 /*   By: dcastagn <dcastagn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/22 15:33:15 by dcastagn          #+#    #+#             */
-/*   Updated: 2024/01/29 15:35:25 by dcastagn         ###   ########.fr       */
+/*   Updated: 2024/01/30 16:28:41 by dcastagn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ void	ft_big_push(t_stack *stack)
 	int	k;
 	int	c;
 
+	//printf("%i\n", stack->size_b);
 	k = -1;
 	c = ft_binlen(stack->size_a);
 	while (++k < c - 1)

@@ -6,7 +6,7 @@
 /*   By: dcastagn <dcastagn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 11:38:20 by dcastagn          #+#    #+#             */
-/*   Updated: 2024/01/29 15:37:43 by dcastagn         ###   ########.fr       */
+/*   Updated: 2024/01/30 16:30:21 by dcastagn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ void	init_b(t_stack *stack)
 	int	i;
 
 	i = 0;
+	stack->size_b = 0;
 	stack->stack_b = (int *) malloc (stack->size_a * sizeof(int));
 	while (i < stack->size_a)
 	{
